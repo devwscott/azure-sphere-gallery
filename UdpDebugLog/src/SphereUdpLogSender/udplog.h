@@ -3,5 +3,6 @@
 
 #pragma once
 
-int Log_Debug(const char *fmt, ...);
+// int Log_Debug(const char *fmt, ...);
+int Udp_Debug(const char *fmt, ...);
 

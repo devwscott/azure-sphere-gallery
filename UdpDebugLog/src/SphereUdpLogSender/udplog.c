@@ -31,7 +31,8 @@ static bool slogInit = false;
 void initSlog(void);
 
 #ifdef USE_SOCKET_LOG
-int Log_Debug(const char *fmt, ...)
+// int Log_Debug(const char *fmt, ...)
+int Udp_Debug(const char *fmt, ...)
 {
 	if (!slogInit)
 	{
